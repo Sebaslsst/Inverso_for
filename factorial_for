@@ -21,7 +21,7 @@ int main() {
 
     // Imprimir el resultado
     printf("%d! = %llu\n", n, factorial);
-    printf("Muchas gracias mundo :D\n");
+    printf("Muchas gracias\n");
 
     return 0;
 }
