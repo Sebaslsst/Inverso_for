@@ -1,0 +1,28 @@
+#include <stdio.h>
+
+float raizCuadrada(int n) {
+    float raiz = 0.0;
+    int i = 0;
+
+    while (i * i <= n) {
+        raiz = i;
+        i++;
+    }
+    float precision = 0.001;
+    i = 0;
+    while (i < 10) {
+        raiz += precision;
+        if (raiz * raiz > n) {
+            raiz -= precision;
+        }
+        i++;
+    }
+    return raiz;
+}
+int main() {
+    int num;
+    printf("Introduce un número: ");
+    scanf("%d", &num);
+    printf("La raíz cuadrada de %d es: %.3f\n", num, raizCuadrada(num));
+    return 0;
+}
