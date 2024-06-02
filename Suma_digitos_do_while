@@ -16,4 +16,3 @@ int main() {
     printf("La suma de los dígitos de %d es: %d\n", numero, sumaDigitos(numero));
     return 0;
 }
-'
