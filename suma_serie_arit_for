@@ -21,7 +21,7 @@ int main() {
 
     // Imprimir el resultado
     printf("La suma de los primeros %d términos es %d\n", n, sum);
-    printf("Muchas gracias mundo :D\n");
+    printf("Muchas gracias mundo\n");
 
     return 0;
 }
