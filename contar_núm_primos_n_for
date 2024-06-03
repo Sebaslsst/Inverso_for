@@ -37,7 +37,7 @@ int main() {
 
     // Imprimir el resultado
     printf("Hay %d números primos desde 1 hasta %d.\n", contadorPrimos, n);
-    printf("Muchas gracias mundo\n");
+    printf("Muchas gracias\n");
 
     return 0;
 }
