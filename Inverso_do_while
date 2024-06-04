@@ -1,4 +1,4 @@
-#include <stdio.h>;
+#include <stdio.h>
 
 int invertirNumero(int num) {
     int inverso = 0;
